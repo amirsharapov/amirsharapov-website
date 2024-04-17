@@ -3,10 +3,10 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { MarkdownPage } from './components/markdown-page/MarkdownPage';
-import HOME from 'src/content/home.js';
-import ABOUT from 'src/content/about.js';
-import PROJECTS from 'src/content/projects.js';
-import RESOURCES_FOR_ML_ENGINEERS from 'src/content/ml-resources.js';
+import { HOME_PAGE_CONTENT } from 'src/content/home.js';
+import { ABOUT_PAGE_CONTENT } from 'src/content/about.js';
+import { PROJECTS_PAGE_CONTENT } from 'src/content/projects.js';
+import { ML_RESOURCES_PAGE_CONTENT } from 'src/content/ml-resources.js';
 
 
 const NOT_FOUND = `\
@@ -19,13 +19,13 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <MarkdownPage markdown={HOME} />
+    element: <MarkdownPage markdown={HOME_PAGE_CONTENT} />
   },
   {
     path: '/about',
     element: (
       <MarkdownPage
-        markdown={ABOUT}
+        markdown={ABOUT_PAGE_CONTENT}
         breadcrumbs={[
           { title: 'Home', path: '/' },
           { title: 'About' }
@@ -37,7 +37,7 @@ const router = createBrowserRouter([
     path: '/projects',
     element: (
       <MarkdownPage
-        markdown={PROJECTS}
+        markdown={PROJECTS_PAGE_CONTENT}
         breadcrumbs={[
           { title: 'Home', path: '/' },
           { title: 'Projects' }
@@ -49,7 +49,7 @@ const router = createBrowserRouter([
     path: '/ml-resources',
     element: (
       <MarkdownPage
-        markdown={RESOURCES_FOR_ML_ENGINEERS}
+        markdown={ML_RESOURCES_PAGE_CONTENT}
         breadcrumbs={[
           { title: 'Home', path: '/' },
           { title: 'ML Resources' }
