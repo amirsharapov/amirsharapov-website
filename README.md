@@ -10,3 +10,7 @@ ultimate design:
 considerations:
 
 - comments can be done through github issues or on a forum website.
+
+# TODO:
+
+Utilize a tree-based data structure for breadcrumbs navigation.

@@ -1,3 +1,4 @@
+export const CONTENT = `\
 # Day in the Life of a Citizen of a World of Abundance
 
 The goal of this write-up is to imagine a world of abundance through the perspective of an individual, with the intention of being the cornerstone for a plan to provide every individual on earth with the means to make this day possible. 
@@ -46,4 +47,5 @@ As you step out into your neighborhood, you wave hello to your landlord's robot 
 
 ## References:
 
-1. *Technology will not get better*: This will not be the case, but it is safer to 
+1. *Technology will not get better*: This will not be the case, but it is safer to \
+`

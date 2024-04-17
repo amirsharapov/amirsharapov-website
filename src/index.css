@@ -4,7 +4,7 @@ html {
 }
 
 :root {
-  --blue: #2a56cf;
+  --blue: #3867e9;
   --blue-light: #81adff;
 }
 
@@ -21,7 +21,7 @@ body {
     'Droid Sans',
     'Helvetica Neue',
     sans-serif;
-  margin: 20px;
+  margin: 10px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -36,10 +36,17 @@ code {
     monospace;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
+  line-height: 1.6rem;
+  margin: 1.6rem 0;
 }
 
 p {
-  margin: 1.4rem 0;
+  margin: 0 0 1.2rem 0;
+}
+
+a {
+  color: var(--blue);
+  font-weight: 500;
 }
