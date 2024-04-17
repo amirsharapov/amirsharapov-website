@@ -1,4 +1,4 @@
-export default `\
+export const ML_RESOURCES_PAGE_CONTENT = `\
 # ML Resources
 
 Here are some resources I've found on my CS / ML engineering journey that may be of value to you.

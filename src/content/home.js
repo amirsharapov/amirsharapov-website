@@ -1,4 +1,4 @@
-export default `\
+export const HOME_PAGE_CONTENT = `\
 # Hi, I'm Amir 👋
 
 I'm a SWE @ PIMCO with an interest in ML and anything automation.

@@ -1,4 +1,4 @@
-export default `\
+export const ABOUT_PAGE_CONTENT = `\
 # About Me
 
 Hello! My name is Amir 👋 and I have a keen interest in automation and ML
