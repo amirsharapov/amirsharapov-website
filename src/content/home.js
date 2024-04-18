@@ -6,10 +6,9 @@ I'm a SWE @ PIMCO with an interest in ML and anything automation.
 If you're here, you might be interested to check out a little [about me](/about) 👨‍💻,
 or check out the [latest projects](/projects) I'm working on 🤖🧠.
 
-If those don't scratch your itch, no worries - here are other pages you can explore:
+If those don't scratch your itch, no worries - here are other page(s) you can explore:
 
 - [ML Resources](/ml-resources)
-- [Blog](/blog)
 
 ...and last but not least, if you're interested in expanding your network, you can connect 💬 with me on these platforms:
 
