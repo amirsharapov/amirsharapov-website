@@ -3,11 +3,10 @@ export const HOME_PAGE_CONTENT = `\
 
 I'm a SWE @ PIMCO with an interest in ML and anything automation.
 
-If you're on this site, you probably are here to learn more [about me](/about) 👨‍💻,
-or check out [projects](/projects) I'm working on 🤖🧠.
-Or if those don't scratch your itch, no problem!
+If you're here, you might be interested to check out a little [about me](/about) 👨‍💻,
+or check out the [latest projects](/projects) I'm working on 🤖🧠.
 
-Here are a few other links you might find interesting:
+If those don't scratch your itch, no worries - here are other pages you can explore:
 
 - [ML Resources](/ml-resources)
 - [Blog](/blog)

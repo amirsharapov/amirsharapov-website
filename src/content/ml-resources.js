@@ -2,12 +2,12 @@ export const ML_RESOURCES_PAGE_CONTENT = `\
 # ML Resources
 
 Here are some resources I've found on my CS / ML engineering journey that may be of value to you.
-As I continue to learn and grow, I'll be updating this list with more resources.
+As I continue to learn and grow, I'll keep this list updated.
 
 ### Higher Education 🎓
 
-- [Wester Governor's University](https://wgu.edu): Competency-based Bachelor's in CS
-- [Georgia Tech (MS CS)](https://www.omscs.gatech.edu): Online Master's in CS
+- [Western Governor's University](https://wgu.edu): Competency-based Bachelor degrees
+- [Georgia Tech (MS CS)](https://omscs.gatech.edu/specialization-machine-learning): Online Master's in CS with a focus on ML
 
 ### Continuous Learning 📚
 
